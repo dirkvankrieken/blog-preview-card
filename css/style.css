@@ -1,0 +1,62 @@
+body {
+	font-family: 'Figtree', sans-serif;
+	background-color: hsl(47, 88%, 63%);
+}
+
+section {
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: hsl(0, 0%, 100%);
+	width: 350px;
+	border: 1px solid black;
+	border-radius: 20px;
+	filter: drop-shadow(8px 8px #000);
+}
+
+.illustration {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+
+
+.attribution {
+	margin-top: 10px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.learning {
+	display: inline-block;
+	margin: 20px 0 5px 0;
+	padding: 5px 5px;
+	font-weight: 600;
+	border-radius: 2px;
+	background-color: hsl(47, 88%, 63%);
+}
+
+ul {
+	padding: 0;
+	display: flex;
+}
+ul li {
+	list-style-type: none;
+}
+
+.Greg {
+	align-self: center;
+	font-weight: 700;
+}
