@@ -12,9 +12,9 @@ section {
 
 .card {
 	margin: 0 auto;
-	padding: 20px;
+	padding: 25px;
 	background-color: hsl(0, 0%, 100%);
-	width: 350px;
+	width: 330px;
 	border: 1px solid black;
 	border-radius: 20px;
 	filter: drop-shadow(8px 8px #000);
@@ -27,6 +27,9 @@ section {
 	border-radius: 10px;
 }
 
+.published {
+	font-size: 0.9rem;
+}
 
 
 .attribution {
@@ -42,21 +45,31 @@ section {
 .learning {
 	display: inline-block;
 	margin: 20px 0 5px 0;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 5px;
 	background-color: hsl(47, 88%, 63%);
+}
+
+.description {
+	color: hsl(0, 0%, 50%);
 }
 
 ul {
 	padding: 0;
+	margin: 0;
 	display: flex;
 }
 ul li {
 	list-style-type: none;
 }
 
-.Greg {
+.author-name {
+	margin-left: 12px;
 	align-self: center;
 	font-weight: 700;
+}
+
+.author-image {
+	width: 35px;
 }
