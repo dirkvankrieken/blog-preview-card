@@ -3,7 +3,7 @@ body {
 	background-color: hsl(47, 88%, 63%);
 }
 
-section {
+main {
 	height: 95vh;
 	display: flex;
 	flex-direction: column;
