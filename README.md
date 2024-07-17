@@ -41,10 +41,6 @@ Users should be able to:
 I learned how to use 'rem' (relative to the root font-size) for the font-sizes to match the design version as closely as possible.
 I learned to use a :hover state on an element for interactivity. (changing the color of a heading when hovering with the mouse over the element.)
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```css
 h1:hover {
 	color: var(--yellow);
